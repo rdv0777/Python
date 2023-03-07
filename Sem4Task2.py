@@ -28,3 +28,5 @@ else:
     if a[0]+a[-1]+a[1]>maxsum:
         maxsum=a[0]+a[-1]+a[1]
     print(maxsum)
+
+print()
