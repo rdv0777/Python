@@ -6,5 +6,5 @@
 a1 = int(input("a1 = "  ))
 d = int(input("d = "  ))
 n = int(input("n = "  ))
-progr = [a1 + (i - 1) * d for i in range(1, n + 1)]
-print(progr)
+prog = [a1 + (i - 1) * d for i in range(1, n + 1)]
+print(prog)
