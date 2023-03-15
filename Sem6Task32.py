@@ -10,4 +10,3 @@ max_el = int(input("Введите максимальный элемент: "))
 for i in range(len(list_el)):
     if min_el <= list_el[i] <= max_el:
         print(i)
-
