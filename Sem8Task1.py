@@ -77,7 +77,7 @@ def get_data(lst):
             os_name_list[k],
             os_code_list[k],
             os_type_list[k]
-         ])
+        ])
     return main_data
 
 

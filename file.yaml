@@ -1,8 +1,8 @@
 items:
-- computer
-- printer
-- keyboard
-- mouse
+  - computer
+  - printer
+  - keyboard
+  - mouse
 items_ptice:
   computer: 200€-1000€
   keyboard: 5€-50€
