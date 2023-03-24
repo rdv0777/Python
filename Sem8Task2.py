@@ -39,7 +39,7 @@ def write_order_to_json(item, quantity, price, buyer, date):
             'date': date,
         })
     with open('orders.json', 'w') as f_w:
-        json.dump( dict_to_json, f_w, indent=4)
+        json.dump(dict_to_json, f_w, indent=4)
 
 
 write_order_to_json(

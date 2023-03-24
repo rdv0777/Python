@@ -24,7 +24,7 @@ def rec(inp, num1, num2):
                 return rec(inp, num1, num2)
             elif inp == "*":
                 print("Ваш результат: ", num1 * num2)
-                return  rec(inp, num1, num2)
+                return rec(inp, num1, num2)
 
             elif inp == "/":
                 if num2 == 0:
